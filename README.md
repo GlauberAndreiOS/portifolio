@@ -1,89 +1,81 @@
-# React + Vite + TypeScript Template (react-vite-ui)
+# 🚀 Welcome Page – React + Vite + Shadcn/UI
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Dan5py/react-vite-ui/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-A React + Vite template powered by shadcn/ui.
+Uma landing page feita com **React + Vite + TypeScript**, estilizada com **Tailwind CSS v3** e componentes do **[shadcn/ui](https://ui.shadcn.com/)**.  
+Este projeto é baseado no template [`react-vite-ui`](https://github.com/dan5p/react-vite-ui) criado por [@dan5p](https://github.com/dan5p). 🙌
 
-> [!NOTE]
-> This template uses Tailwind v3, if you want to use Tailwind v4, check the [tw4 branch](https://github.com/dan5py/react-vite-shadcn-ui/tree/tw4).
+> [!NOTE]  
+> O template original utiliza Tailwind v3.  
+> Caso precise da versão com Tailwind v4, veja a branch [`tw4`](https://github.com/dan5p/react-vite-shadcn-ui/tree/tw4).
+
+---
 
 ## 🎉 Features
 
-- **React** - A JavaScript library for building user interfaces.
-- **Vite** - A fast, opinionated frontend build tool.
-- **TypeScript** - A typed superset of JavaScript that compiles to plain JavaScript.
-- **Tailwind CSS** - A utility-first CSS framework. (`v3`)
-- **Tailwind Prettier Plugin** - A Prettier plugin for formatting Tailwind CSS classes.
-- **ESLint** - A pluggable linting utility for JavaScript and TypeScript.
-- **PostCSS** - A tool for transforming CSS with JavaScript.
-- **Autoprefixer** - A PostCSS plugin to parse CSS and add vendor prefixes.
-- **shadcn/ui** - Beautifully designed components that you can copy and paste into your apps.
+- ⚛️ **React** – Biblioteca para construção de interfaces.
+- ⚡ **Vite** – Build tool rápida e moderna.
+- 🟦 **TypeScript** – Superset tipado de JavaScript.
+- 🎨 **Tailwind CSS v3** – Framework utilitário para estilização.
+- 🎯 **shadcn/ui** – Componentes acessíveis e bonitos.
+- 🧹 **ESLint** – Garantia de código limpo e consistente.
+- 🔧 **PostCSS + Autoprefixer** – Compatibilidade entre navegadores.
 
-## ⚙️ Prerequisites
+---
 
-Make sure you have the following installed on your development machine:
+## ⚙️ Pré-requisitos
 
-- Node.js (version 22 or above)
-- pnpm (package manager)
+- [Node.js](https://nodejs.org/) (versão 22 ou superior)  
+- [npm](https://www.npmjs.com/) (vem junto com o Node.js)  
 
-## 🚀 Getting Started
+---
 
-Follow these steps to get started with the react-vite-ui template:
+## 🚀 Como rodar o projeto
 
-1. Clone the repository:
-
+1. Clone este repositório:
    ```bash
-   git clone https://github.com/dan5py/react-vite-ui.git
+   git clone https://github.com/<seu-usuario>/<seu-repo>.git
+   ```
+2. Acesse a pasta:
+   ```bash
+   cd <seu-repo>
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Rode o servidor de desenvolvimento:
+   ```bash
+   npm run dev
    ```
 
-2. Navigate to the project directory:
+---
 
-   ```bash
-   cd react-vite-ui
-   ```
+## 📜 Scripts disponíveis
 
-3. Install the dependencies:
+- `npm run dev` – Inicia o servidor de desenvolvimento  
+- `npm run build` – Gera a versão otimizada para produção  
+- `npm run preview` – Pré-visualiza o build localmente  
+- `npm run lint` – Roda o ESLint para análise do código  
 
-   ```bash
-   pnpm install
-   ```
+---
 
-4. Start the development server:
+## 📂 Estrutura do projeto
 
-   ```bash
-   pnpm dev
-   ```
-
-## 📜 Available Scripts
-
-- pnpm dev - Starts the development server.
-- pnpm build - Builds the production-ready code.
-- pnpm lint - Runs ESLint to analyze and lint the code.
-- pnpm preview - Starts the Vite development server in preview mode.
-
-## 📂 Project Structure
-
-The project structure follows a standard React application layout:
-
-```python
-react-vite-ui/
-  ├── node_modules/      # Project dependencies
-  ├── public/            # Public assets
-  ├── src/               # Application source code
-  │   ├── components/    # React components
-  │   │   └── ui/        # shadc/ui components
-  │   ├── styles/        # CSS stylesheets
-  │   ├── lib/           # Utility functions
-  │   ├── App.tsx        # Application entry point
-  │   └── index.tsx      # Main rendering file
-  ├── eslint.config.js     # ESLint configuration
-  ├── index.html         # HTML entry point
-  ├── postcss.config.js  # PostCSS configuration
-  ├── tailwind.config.ts # Tailwind CSS configuration
-  ├── tsconfig.json      # TypeScript configuration
-  └── vite.config.ts     # Vite configuration
+```bash
+src/
+  ├── components/     # Componentes React
+  │   └── ui/         # Componentes shadcn/ui
+  ├── lib/            # Utilitários
+  ├── styles/         # Estilos globais
+  ├── App.tsx         # Componente raiz
+  └── main.tsx        # Ponto de entrada React
 ```
 
-## 📄 License
+---
 
-This project is licensed under the MIT License. See the [LICENSE](https://choosealicense.com/licenses/mit/) file for details.
+## 📄 Licença
+
+Este projeto está licenciado sob a **MIT License** – veja o arquivo [LICENSE](./LICENSE) para mais detalhes.  
+
+> ⚡ **Créditos**: Este projeto foi construído a partir do template [`react-vite-ui`](https://github.com/dan5p/react-vite-ui) de [@dan5p](https://github.com/dan5p).  
